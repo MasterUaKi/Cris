@@ -5,17 +5,18 @@
  *
  * http://www.dspace.org/license/
  */
-// Версия: 1.0.4
-// Дата выпуска: 2026-04-22
-
 package org.dspace.workflow.custom;
 
-import org.apache.http.client.methods.CloseableHttpResponse;
-import org.apache.http.client.methods.HttpPost;
-import org.apache.http.entity.StringEntity;
-import org.apache.http.impl.client.CloseableHttpClient;
-import org.apache.http.impl.client.HttpClients;
-import org.apache.http.util.EntityUtils;
+import java.io.IOException;
+import java.net.URI;
+import java.net.http.HttpClient;
+import java.net.http.HttpRequest;
+import java.net.http.HttpResponse;
+import java.sql.SQLException;
+import java.util.List;
+
+import jakarta.servlet.http.HttpServletRequest;
+
 import org.dspace.authorize.AuthorizeException;
 import org.dspace.content.Item;
 import org.dspace.content.service.ItemService;
@@ -25,11 +26,6 @@ import org.dspace.xmlworkflow.state.actions.ActionResult;
 import org.dspace.xmlworkflow.state.actions.processingaction.ProcessingAction;
 import org.dspace.xmlworkflow.storedcomponents.XmlWorkflowItem;
 import org.springframework.beans.factory.annotation.Autowired;
-
-import jakarta.servlet.http.HttpServletRequest;
-import java.io.IOException;
-import java.sql.SQLException;
-import java.util.List;
 
 public class ExternalIntegrationAction extends ProcessingAction {
 
@@ -41,12 +37,12 @@ public class ExternalIntegrationAction extends ProcessingAction {
     }
 
     @Override
-    public ActionResult execute(Context c, XmlWorkflowItem wfi, Step step, HttpServletRequest request) 
+    public ActionResult execute(Context c, XmlWorkflowItem wfi, Step step, HttpServletRequest request)
             throws SQLException, AuthorizeException, IOException {
-        
+
         Item item = wfi.getItem();
         String entityType = itemService.getMetadataFirstValue(item, "dspace", "entity", "type", Item.ANY);
-        
+
         if ("Funding".equals(entityType)) {
             String title = itemService.getMetadataFirstValue(item, "dc", "title", null, Item.ANY);
             sendToExternalSystem(title);
@@ -61,18 +57,19 @@ public class ExternalIntegrationAction extends ProcessingAction {
     }
 
     private void sendToExternalSystem(String title) {
-        try (CloseableHttpClient client = HttpClients.createDefault()) {
-            HttpPost httpPost = new HttpPost("https://api.external-system.com/funding/import");
+        try {
+            HttpClient client = HttpClient.newHttpClient();
             String json = "{\"title\": \"" + title + "\"}";
-            StringEntity entity = new StringEntity(json);
-            httpPost.setEntity(entity);
-            httpPost.setHeader("Accept", "application/json");
-            httpPost.setHeader("Content-type", "application/json");
-            
-            try (CloseableHttpResponse response = client.execute(httpPost)) {
-                String responseBody = EntityUtils.toString(response.getEntity());
-                System.out.println("External System Response: " + responseBody);
-            }
+
+            HttpRequest req = HttpRequest.newBuilder()
+                    .uri(URI.create("https://api.external-system.com/funding/import"))
+                    .header("Accept", "application/json")
+                    .header("Content-Type", "application/json")
+                    .POST(HttpRequest.BodyPublishers.ofString(json))
+                    .build();
+
+            HttpResponse<String> response = client.send(req, HttpResponse.BodyHandlers.ofString());
+            System.out.println("External System Response: " + response.body());
         } catch (Exception e) {
             e.printStackTrace();
         }
