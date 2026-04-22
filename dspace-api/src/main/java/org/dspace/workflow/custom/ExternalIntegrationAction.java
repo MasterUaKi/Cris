@@ -1,4 +1,4 @@
-// Версия: 1.0.1
+// Версия: 1.0.2
 // Дата выпуска: 2026-04-22
 
 package org.dspace.workflow.custom;
@@ -15,13 +15,15 @@ import org.dspace.content.service.ItemService;
 import org.dspace.core.Context;
 import org.dspace.xmlworkflow.state.Step;
 import org.dspace.xmlworkflow.state.actions.ActionResult;
-import org.dspace.xmlworkflow.state.actions.processingaction.ProcessingAction; // ИСПРАВЛЕНО / KORRIGIERT
+import org.dspace.xmlworkflow.state.actions.processingaction.ProcessingAction;
+import org.dspace.xmlworkflow.storedcomponents.XmlWorkflowItem; // ДОБАВЛЕНО/ИСПРАВЛЕНО
 import org.springframework.beans.factory.annotation.Autowired;
 
-import jakarta.servlet.http.HttpServletRequest; // ИСПРАВЛЕНО (javax -> jakarta) / KORRIGIERT
+import jakarta.servlet.http.HttpServletRequest;
 import java.io.IOException;
 import java.sql.SQLException;
 import java.util.List;
+// ...
 
 public class ExternalIntegrationAction extends ProcessingAction {
 // ... остальной код оставляем без изменений / den restlichen Code unverändert lassen ...
