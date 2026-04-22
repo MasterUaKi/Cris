@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 
+  Файл ініціалізації паралельних сутностей для DSpace-CRIS 8 
+  Ці типи будуть використовуватися для Layout Management та Discovery
+-->
+
+    <type label="vPerson" />
+    <type label="vEmployment" />
+    <type label="vOrganizationalUnit" />
+    <type label="vPublications" />
+    <type label="vProject" />
+    <type label="vFunding" />
+    <type label="vApplication" />
+    <type label="vResearchData" /> <!-- Рекомендую замість vPublications для даних -->

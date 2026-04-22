@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<dspace-dc-types>
+    <dc-schema>
+        <name>veroPU</name>
+        <namespace>veroPU</namespace>
+    </dc-schema>
+    <dc-type>
+        <schema>veroPU</schema>
+        <element>apc</element>
+        <qualifier>backlist</qualifier>
+        <scope_note>Backlist
+</scope_note>
+    </dc-type>
+    <dc-type>
+        <schema>veroPU</schema>
+        <element>apc</element>
+        <qualifier>journalType</qualifier>
+        <scope_note>OA-Journaltyp
+</scope_note>
+    </dc-type>
+    <dc-type>
+        <schema>veroPU</schema>
+        <element>bibliographicCitation</element>
+        <qualifier>edition</qualifier>
+        <scope_note>Ausgabe / Auflage
+</scope_note>
+    </dc-type>
+    <dc-type>
+        <schema>veroPU</schema>
+        <element>bibliographicCitation</element>
+        <qualifier>publisherPlace</qualifier>
+        <scope_note>Erscheinungsort
+</scope_note>
+    </dc-type>
+    <dc-type>
+        <schema>veroPU</schema>
+        <element>bibliographicCitation</element>
+        <scope_note>Band / Heft
+</scope_note>
+    </dc-type>
+    <dc-type>
+        <schema>veroPU</schema>
+        <element>costData</element>
+        <qualifier>amountPaid</qualifier>
+        <scope_note>Zahlung
+</scope_note>
+    </dc-type>
+    <dc-type>
+        <schema>veroPU</schema>
+        <element>costData</element>
+        <qualifier>externalCostSplitting</qualifier>
+        <scope_note>Kostenteilung
+</scope_note>
+    </dc-type>
+    <dc-type>
+        <schema>veroPU</schema>
+        <element>costData</element>
+        <qualifier>invoice</qualifier>
+        <scope_note>Rechnung
+</scope_note>
+    </dc-type>
+    <dc-type>
+        <schema>veroPU</schema>
+        <element>costData</element>
+        <qualifier>partOfContract</qualifier>
+        <scope_note>Vertragsnummer
+</scope_note>
+    </dc-type>
+    <dc-type>
+        <schema>veroPU</schema>
+        <element>hsb</element>
+        <qualifier>autor</qualifier>
+        <scope_note>HSB Autor
+</scope_note>
+    </dc-type>
+    <dc-type>
+        <schema>veroPU</schema>
+        <element>import</element>
+        <qualifier>begutachtungsHinweis</qualifier>
+        <scope_note>Begutachtungs Hinweis
+</scope_note>
+    </dc-type>
+    <dc-type>
+        <schema>veroPU</schema>
+        <element>openaccess</element>
+        <qualifier>type</qualifier>
+        <scope_note>Open Access-Strategie
+</scope_note>
+    </dc-type>
+    <dc-type>
+        <schema>veroPU</schema>
+        <element>peerReview</element>
+        <scope_note>Peer-Review
+</scope_note>
+    </dc-type>
+</dspace-dc-types>

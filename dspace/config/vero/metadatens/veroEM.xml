@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<dspace-dc-types>
+    <dc-schema>
+        <name>veroEM</name>
+        <namespace>veroEM</namespace>
+    </dc-schema>
+    <dc-type>
+        <schema>veroEM</schema>
+        <element>employee</element>
+        <scope_note>Stelleninhabende Person
+</scope_note>
+    </dc-type>
+    <dc-type>
+        <schema>veroEM</schema>
+        <element>end</element>
+        <scope_note>Ende der Beschäftigung
+</scope_note>
+    </dc-type>
+    <dc-type>
+        <schema>veroEM</schema>
+        <element>financing</element>
+        <scope_note>Finanzierung der Stelle
+</scope_note>
+    </dc-type>
+    <dc-type>
+        <schema>veroEM</schema>
+        <element>limited</element>
+        <scope_note>Befristung
+</scope_note>
+    </dc-type>
+    <dc-type>
+        <schema>veroEM</schema>
+        <element>salaryLevel</element>
+        <scope_note>Stellendotierung Professur
+</scope_note>
+    </dc-type>
+    <dc-type>
+        <schema>veroEM</schema>
+        <element>start</element>
+        <scope_note>Beginn der Beschäftigung
+</scope_note>
+    </dc-type>
+    <dc-type>
+        <schema>veroEM</schema>
+        <element>type</element>
+        <qualifier>professor</qualifier>
+        <scope_note>Stellentyp Professur / Stellenbezeichnung
+</scope_note>
+    </dc-type>
+    <dc-type>
+        <schema>veroEM</schema>
+        <element>type</element>
+        <scope_note>Personalkategorie
+</scope_note>
+    </dc-type>
+    <dc-type>
+        <schema>veroEM</schema>
+        <element>workingAmount</element>
+        <qualifier>type</qualifier>
+        <scope_note>Tätigkeitstyp
+</scope_note>
+    </dc-type>
+    <dc-type>
+        <schema>veroEM</schema>
+        <element>workingAmount</element>
+        <scope_note>Arbeitszeitanteil bzw. Vollzeitäquivalent
+</scope_note>
+    </dc-type>
+</dspace-dc-types>

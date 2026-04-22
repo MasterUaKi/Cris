@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<dspace-dc-types>
+    <dc-schema>
+        <name>vero</name>
+        <namespace>vero</namespace>
+    </dc-schema>
+    <dc-type>
+        <schema>vero</schema>
+        <element>import</element>
+        <qualifier>funding</qualifier>
+        <scope_note>Fördermittelgeber (Angabe aus Vorsystem)
+</scope_note>
+    </dc-type>
+    <dc-type>
+        <schema>vero</schema>
+        <element>institut</element>
+        <scope_note>Institut
+</scope_note>
+    </dc-type>
+    <dc-type>
+        <schema>vero</schema>
+        <element>OrgUnit</element>
+        <scope_note>Zuordnung zu interner Organisationseinheit
+</scope_note>
+    </dc-type>
+    <dc-type>
+        <schema>vero</schema>
+        <element>personalNummer</element>
+        <scope_note>CP Nummer
+</scope_note>
+    </dc-type>
+    <dc-type>
+        <schema>vero</schema>
+        <element>researchfield</element>
+        <scope_note>Interdisziplinäre Ausrichtung (nach KDSF)
+</scope_note>
+    </dc-type>
+    <dc-type>
+        <schema>vero</schema>
+        <element>researchsubject</element>
+        <qualifier>euroscivoc</qualifier>
+        <scope_note>Thematische Ausrichtung nach EuroSciVoc
+</scope_note>
+    </dc-type>
+    <dc-type>
+        <schema>vero</schema>
+        <element>subject</element>
+        <qualifier>destatis</qualifier>
+        <scope_note>Destatis Fächergruppesystematik 
+</scope_note>
+    </dc-type>
+    <dc-type>
+        <schema>vero</schema>
+        <element>subject</element>
+        <qualifier>dfg</qualifier>
+        <scope_note>Fachzuordnung nach DFG
+</scope_note>
+    </dc-type>
+</dspace-dc-types>

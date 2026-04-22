@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<dspace-dc-types>
+    <dc-schema>
+        <name>veroPJ</name>
+        <namespace>veroPJ</namespace>
+    </dc-schema>
+    <dc-type>
+        <schema>veroPJ</schema>
+        <element>capacities</element>
+        <scope_note>Kapazitäte Auswirkungen
+</scope_note>
+    </dc-type>
+    <dc-type>
+        <schema>veroPJ</schema>
+        <element>crosssection</element>
+        <qualifier>subject</qualifier>
+        <scope_note>Querschnittsthema
+</scope_note>
+    </dc-type>
+    <dc-type>
+        <schema>veroPJ</schema>
+        <element>datamanager</element>
+        <scope_note>Datenmanager*in
+</scope_note>
+    </dc-type>
+    <dc-type>
+        <schema>veroPJ</schema>
+        <element>email</element>
+        <qualifier>contact</qualifier>
+        <scope_note>E-Mail Kontaktadresse
+</scope_note>
+    </dc-type>
+    <dc-type>
+        <schema>veroPJ</schema>
+        <element>funding</element>
+        <qualifier>information</qualifier>
+        <scope_note>zugehörige Förderungen
+</scope_note>
+    </dc-type>
+    <dc-type>
+        <schema>veroPJ</schema>
+        <element>personellhealthData</element>
+        <scope_note>Erhebung personen- oder gesundheitsbezogene Daten
+</scope_note>
+    </dc-type>
+    <dc-type>
+        <schema>veroPJ</schema>
+        <element>purpose</element>
+        <scope_note>Projektzweck
+</scope_note>
+    </dc-type>
+    <dc-type>
+        <schema>veroPJ</schema>
+        <element>research</element>
+        <qualifier>subject</qualifier>
+        <scope_note>Forschungsschwerpunkt
+</scope_note>
+    </dc-type>
+    <dc-type>
+        <schema>veroPJ</schema>
+        <element>subject</element>
+        <qualifier>other</qualifier>
+        <scope_note>Anderer Schwerpunkt/ weiteres Thema oder Fachgebiet
+</scope_note>
+    </dc-type>
+    <dc-type>
+        <schema>veroPJ</schema>
+        <element>transferactivity</element>
+        <scope_note>Art der Transferaktivitäten
+</scope_note>
+    </dc-type>
+</dspace-dc-types>

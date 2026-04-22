@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<dspace-dc-types>
+    <dc-schema>
+        <name>veroPR</name>
+        <namespace>veroPR</namespace>
+    </dc-schema>
+    <dc-type>
+        <schema>veroPR</schema>
+        <element>data</element>
+        <qualifier>methodDescription</qualifier>
+        <scope_note>Spezifizierung der Erhebungsmethodik
+</scope_note>
+    </dc-type>
+    <dc-type>
+        <schema>veroPR</schema>
+        <element>data</element>
+        <qualifier>methodType</qualifier>
+        <scope_note>Erhebungsmethodik
+</scope_note>
+    </dc-type>
+    <dc-type>
+        <schema>veroPR</schema>
+        <element>data</element>
+        <qualifier>personal</qualifier>
+        <scope_note>Verarbeitung personenbezogener Daten
+</scope_note>
+    </dc-type>
+    <dc-type>
+        <schema>veroPR</schema>
+        <element>data</element>
+        <qualifier>prerequisites</qualifier>
+        <scope_note>Voraussetzungen für die weitere Datenverarbeitung
+</scope_note>
+    </dc-type>
+    <dc-type>
+        <schema>veroPR</schema>
+        <element>data</element>
+        <qualifier>processingStage</qualifier>
+        <scope_note>Datenformat
+</scope_note>
+    </dc-type>
+    <dc-type>
+        <schema>veroPR</schema>
+        <element>data</element>
+        <qualifier>sensitive</qualifier>
+        <scope_note>Verarbeitung sensibler Daten
+</scope_note>
+    </dc-type>
+    <dc-type>
+        <schema>veroPR</schema>
+        <element>data</element>
+        <qualifier>source</qualifier>
+        <scope_note>Datenquelle
+</scope_note>
+    </dc-type>
+    <dc-type>
+        <schema>veroPR</schema>
+        <element>geoLocation</element>
+        <scope_note>Räumliche Einordnung der Ressource
+</scope_note>
+    </dc-type>
+</dspace-dc-types>

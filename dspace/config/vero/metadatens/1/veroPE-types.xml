@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<dspace-dc-types>
+    <dc-schema>
+        <name>veroPE</name>
+        <namespace>veroPE</namespace>
+    </dc-schema>
+    <dc-type>
+        <schema>veroPE</schema>
+        <element>denomination</element>
+        <scope_note>Denomination</scope_note>
+    </dc-type>
+    <dc-type>
+        <schema>veroPE</schema>
+        <element>identifier</element>
+        <qualifier>gnd</qualifier>
+        <scope_note>GND-Kennung</scope_note>
+    </dc-type>
+    <dc-type>
+        <schema>veroPE</schema>
+        <element>personalNummer</element>
+        <scope_note>CP Nummer</scope_note>
+    </dc-type>
+    <dc-type>
+        <schema>veroPE</schema>
+        <element>qualification</element>
+        <scope_note>wissenschaftliche Qualifikationstufen
+</scope_note>
+    </dc-type>
+    <dc-type>
+        <schema>veroPE</schema>
+        <element>researchSemester</element>
+        <qualifier>end</qualifier>
+        <scope_note>Ende des (letzten) Forschungssemester
+</scope_note>
+    </dc-type>
+    <dc-type>
+        <schema>veroPE</schema>
+        <element>researchSemester</element>
+        <qualifier>start</qualifier>
+        <scope_note>Start des (letzten) Forschungssemester
+</scope_note>
+    </dc-type>
+    <dc-type>
+        <schema>veroPE</schema>
+        <element>researchsubject</element>
+        <qualifier>vec</qualifier>
+        <scope_note>Forschungsschwerpunkt</scope_note>
+    </dc-type>
+    <dc-type>
+        <schema>veroPE</schema>
+        <element>status</element>
+        <qualifier>doc</qualifier>
+        <scope_note>Status Qualifikationsverfahren
+</scope_note>
+    </dc-type>
+    <dc-type>
+        <schema>veroPE</schema>
+        <element>status</element>
+        <qualifier>emp</qualifier>
+        <scope_note>Beschäftigungsstatus
+</scope_note>
+    </dc-type>
+    <dc-type>
+        <schema>veroPE</schema>
+        <element>type</element>
+        <scope_note>Zugehörigkeitsstatus</scope_note>
+    </dc-type>
+</dspace-dc-types>

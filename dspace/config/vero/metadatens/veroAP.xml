@@ -1,0 +1,332 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<dspace-dc-types>
+    <dc-schema>
+        <name>veroAP</name>
+        <namespace>veroAP</namespace>
+    </dc-schema>
+    <dc-type>
+        <schema>veroAP</schema>
+        <element>abstract</element>
+        <scope_note>Projektbeschreibung
+</scope_note>
+    </dc-type>
+    <dc-type>
+        <schema>veroAP</schema>
+        <element>acronym</element>
+        <scope_note>Akronym
+</scope_note>
+    </dc-type>
+    <dc-type>
+        <schema>veroAP</schema>
+        <element>capacities</element>
+        <scope_note>Kapazitäre Auswirkungen
+</scope_note>
+    </dc-type>
+    <dc-type>
+        <schema>veroAP</schema>
+        <element>capacitiesExplanation</element>
+        <scope_note>Erläuterung der Lehrbeeinflussung
+</scope_note>
+    </dc-type>
+    <dc-type>
+        <schema>veroAP</schema>
+        <element>complementaryressources</element>
+        <scope_note>Eigenleistung durch komplementäre Drittmittel mit entsprechender SAP-Nr.
+</scope_note>
+    </dc-type>
+    <dc-type>
+        <schema>veroAP</schema>
+        <element>consent</element>
+        <qualifier>data</qualifier>
+        <scope_note>Einverständnis Datenverarbeitung
+</scope_note>
+    </dc-type>
+    <dc-type>
+        <schema>veroAP</schema>
+        <element>consulting</element>
+        <qualifier>researchdata</qualifier>
+        <scope_note>FDM Beratung
+</scope_note>
+    </dc-type>
+    <dc-type>
+        <schema>veroAP</schema>
+        <element>cooperation</element>
+        <qualifier>extern</qualifier>
+        <scope_note>weitere antragstellende Institutionen oder Kooperationspartner (extern)
+</scope_note>
+    </dc-type>
+    <dc-type>
+        <schema>veroAP</schema>
+        <element>cooperation</element>
+        <qualifier>organizationUnit</qualifier>
+        <scope_note>Kooperationsinstitutionen im Haus (intern)
+</scope_note>
+    </dc-type>
+    <dc-type>
+        <schema>veroAP</schema>
+        <element>cooperatiuon</element>
+        <qualifier>person</qualifier>
+        <scope_note>Kooperationspartner*innen im Haus (intern)
+</scope_note>
+    </dc-type>
+    <dc-type>
+        <schema>veroAP</schema>
+        <element>crosssection</element>
+        <qualifier>subject</qualifier>
+        <scope_note>Querschnittsthema
+</scope_note>
+    </dc-type>
+    <dc-type>
+        <schema>veroAP</schema>
+        <element>daad</element>
+        <scope_note>DAAD Personen
+</scope_note>
+    </dc-type>
+    <dc-type>
+        <schema>veroAP</schema>
+        <element>email</element>
+        <qualifier>contact</qualifier>
+        <scope_note>E-Mail Kontaktadresse
+</scope_note>
+    </dc-type>
+    <dc-type>
+        <schema>veroAP</schema>
+        <element>explication</element>
+        <qualifier>projectrequirements</qualifier>
+        <scope_note>Erläuterungen der Auflagen
+</scope_note>
+    </dc-type>
+    <dc-type>
+        <schema>veroAP</schema>
+        <element>facilities</element>
+        <scope_note>Benötigte Arbeitsplätze bei Genehmigung
+</scope_note>
+    </dc-type>
+    <dc-type>
+        <schema>veroAP</schema>
+        <element>firmation</element>
+        <scope_note>Rechtsverbindliche Unterschrift
+</scope_note>
+    </dc-type>
+    <dc-type>
+        <schema>veroAP</schema>
+        <element>funding</element>
+        <qualifier>contributionVec</qualifier>
+        <scope_note>Einzubringender Eigenanteil der Universität Vechta
+</scope_note>
+    </dc-type>
+    <dc-type>
+        <schema>veroAP</schema>
+        <element>funding</element>
+        <qualifier>end</qualifier>
+        <scope_note>(Geplantes) Projektende/ Ende der Förderung
+</scope_note>
+    </dc-type>
+    <dc-type>
+        <schema>veroAP</schema>
+        <element>funding</element>
+        <qualifier>funderfree</qualifier>
+        <scope_note>Fördermittelgeber Freitext
+</scope_note>
+    </dc-type>
+    <dc-type>
+        <schema>veroAP</schema>
+        <element>funding</element>
+        <qualifier>funderlist</qualifier>
+        <scope_note>Fördermittelgeber
+</scope_note>
+    </dc-type>
+    <dc-type>
+        <schema>veroAP</schema>
+        <element>funding</element>
+        <qualifier>programm</qualifier>
+        <scope_note>Programm/Förderlinie
+</scope_note>
+    </dc-type>
+    <dc-type>
+        <schema>veroAP</schema>
+        <element>funding</element>
+        <qualifier>start</qualifier>
+        <scope_note>(Geplanter) Projektstart/ Start der Förderung
+</scope_note>
+    </dc-type>
+    <dc-type>
+        <schema>veroAP</schema>
+        <element>funding</element>
+        <qualifier>type</qualifier>
+        <scope_note>Typ/Art der Förderung
+</scope_note>
+    </dc-type>
+    <dc-type>
+        <schema>veroAP</schema>
+        <element>fundingAmount</element>
+        <scope_note>Antragssumme
+</scope_note>
+    </dc-type>
+    <dc-type>
+        <schema>veroAP</schema>
+        <element>HRexplained</element>
+        <scope_note>Erläuterungen zum geplanten Personal
+</scope_note>
+    </dc-type>
+    <dc-type>
+        <schema>veroAP</schema>
+        <element>hrResourcesVec</element>
+        <scope_note>Eigenanteil Haushaltspersonal durch Zeitaufschreibung
+</scope_note>
+    </dc-type>
+    <dc-type>
+        <schema>veroAP</schema>
+        <element>institute</element>
+        <scope_note>Kooperierende Institute
+</scope_note>
+    </dc-type>
+    <dc-type>
+        <schema>veroAP</schema>
+        <element>instNameLead</element>
+        <scope_note>Name koordinierende Einrichtung bei Verbundprojekten
+</scope_note>
+    </dc-type>
+    <dc-type>
+        <schema>veroAP</schema>
+        <element>lead</element>
+        <scope_note>Koordination bei Verbundprojekten
+</scope_note>
+    </dc-type>
+    <dc-type>
+        <schema>veroAP</schema>
+        <element>organizationUnit</element>
+        <qualifier>FakI</qualifier>
+        <scope_note>Fakultät I
+</scope_note>
+    </dc-type>
+    <dc-type>
+        <schema>veroAP</schema>
+        <element>organizationUnit</element>
+        <qualifier>FakII</qualifier>
+        <scope_note>Fakultät II
+</scope_note>
+    </dc-type>
+    <dc-type>
+        <schema>veroAP</schema>
+        <element>person</element>
+        <qualifier>contact</qualifier>
+        <scope_note>(Weitere) Ansprechperson
+</scope_note>
+    </dc-type>
+    <dc-type>
+        <schema>veroAP</schema>
+        <element>personellhelathData</element>
+        <scope_note>Erhebung personen- oder gesundheitsbezogene Daten
+</scope_note>
+    </dc-type>
+    <dc-type>
+        <schema>veroAP</schema>
+        <element>project</element>
+        <qualifier>purpose</qualifier>
+        <scope_note>Projektzweck
+</scope_note>
+    </dc-type>
+    <dc-type>
+        <schema>veroAP</schema>
+        <element>project</element>
+        <qualifier>type</qualifier>
+        <scope_note>Projektform
+</scope_note>
+    </dc-type>
+    <dc-type>
+        <schema>veroAP</schema>
+        <element>projectrequirements</element>
+        <scope_note>Projektauflagen
+</scope_note>
+    </dc-type>
+    <dc-type>
+        <schema>veroAP</schema>
+        <element>research</element>
+        <qualifier>subject</qualifier>
+        <scope_note>Forschungsschwerpunkt
+</scope_note>
+    </dc-type>
+    <dc-type>
+        <schema>veroAP</schema>
+        <element>researchResults</element>
+        <scope_note>Ergebnisse der Forschung / Auflagen für Forschungsergebnisse
+</scope_note>
+    </dc-type>
+    <dc-type>
+        <schema>veroAP</schema>
+        <element>resources</element>
+        <qualifier>contributionVec</qualifier>
+        <scope_note>Eigenleistung durch Haushaltsmittel mit entsprechender SAP-Nr.
+</scope_note>
+    </dc-type>
+    <dc-type>
+        <schema>veroAP</schema>
+        <element>resources</element>
+        <qualifier>material</qualifier>
+        <scope_note>Beantragte Sachmittel
+</scope_note>
+    </dc-type>
+    <dc-type>
+        <schema>veroAP</schema>
+        <element>resources</element>
+        <qualifier>openaccess</qualifier>
+        <scope_note>davon beantragte Open Access Kosten 
+</scope_note>
+    </dc-type>
+    <dc-type>
+        <schema>veroAP</schema>
+        <element>resources</element>
+        <qualifier>overhead</qualifier>
+        <scope_note>Beantragte Projektpauschale
+</scope_note>
+    </dc-type>
+    <dc-type>
+        <schema>veroAP</schema>
+        <element>resources</element>
+        <qualifier>publicationcosts</qualifier>
+        <scope_note>davon beantragte Publikationskosten 
+</scope_note>
+    </dc-type>
+    <dc-type>
+        <schema>veroAP</schema>
+        <element>resources</element>
+        <qualifier>reseachData</qualifier>
+        <scope_note>davon beantragte FDM-Mittel
+</scope_note>
+    </dc-type>
+    <dc-type>
+        <schema>veroAP</schema>
+        <element>resources</element>
+        <qualifier>staff</qualifier>
+        <scope_note>Beantragte Personalmittel
+</scope_note>
+    </dc-type>
+    <dc-type>
+        <schema>veroAP</schema>
+        <element>resources</element>
+        <qualifier>subcontracting</qualifier>
+        <scope_note>davon beantragte Kosten für Unteraufträge
+</scope_note>
+    </dc-type>
+    <dc-type>
+        <schema>veroAP</schema>
+        <element>stage</element>
+        <qualifier>deadline</qualifier>
+        <scope_note>Ende der Einreichungsfrist 
+</scope_note>
+    </dc-type>
+    <dc-type>
+        <schema>veroAP</schema>
+        <element>stage</element>
+        <scope_note>Antragsstatus
+</scope_note>
+    </dc-type>
+    <dc-type>
+        <schema>veroAP</schema>
+        <element>subject</element>
+        <qualifier>other</qualifier>
+        <scope_note>Anderer Schwerpunkt/ weiteres Thema oder Fachgebiet
+</scope_note>
+    </dc-type>
+</dspace-dc-types>

@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<dspace-dc-types>
+    <dc-schema>
+        <name>veroFU</name>
+        <namespace>veroFU</namespace>
+    </dc-schema>
+    <dc-type>
+        <schema>veroFU</schema>
+        <element>amount</element>
+        <qualifier>received</qualifier>
+        <scope_note>Erhaltene Fördersumme
+</scope_note>
+    </dc-type>
+    <dc-type>
+        <schema>veroFU</schema>
+        <element>application</element>
+        <scope_note>Antragsanmeldung auswählen
+</scope_note>
+    </dc-type>
+    <dc-type>
+        <schema>veroFU</schema>
+        <element>daad</element>
+        <scope_note>DAAD Personen
+</scope_note>
+    </dc-type>
+    <dc-type>
+        <schema>veroFU</schema>
+        <element>declaration</element>
+        <scope_note>Erklärung der Antragstellerin bzw. des Antragsteller
+</scope_note>
+    </dc-type>
+    <dc-type>
+        <schema>veroFU</schema>
+        <element>embargo</element>
+        <qualifier>lift</qualifier>
+        <scope_note>Das Embargo gilt bis:
+</scope_note>
+    </dc-type>
+    <dc-type>
+        <schema>veroFU</schema>
+        <element>funding</element>
+        <qualifier>contributionVec</qualifier>
+        <scope_note>ggf. einzubringender Eigenanteil der Universität Vechta in Euro
+</scope_note>
+    </dc-type>
+    <dc-type>
+        <schema>veroFU</schema>
+        <element>funding</element>
+        <qualifier>embargo</qualifier>
+        <scope_note>Das Projekt oder einzelne Arbeitspakete unterliegen der Geheimhaltung.
+</scope_note>
+    </dc-type>
+    <dc-type>
+        <schema>veroFU</schema>
+        <element>funding</element>
+        <qualifier>funderfree</qualifier>
+        <scope_note>Fördermittelgeber Freitext
+</scope_note>
+    </dc-type>
+    <dc-type>
+        <schema>veroFU</schema>
+        <element>funding</element>
+        <qualifier>type</qualifier>
+        <scope_note>Typ/Art der Förderung
+</scope_note>
+    </dc-type>
+    <dc-type>
+        <schema>veroFU</schema>
+        <element>identifier</element>
+        <qualifier>dfgGeschaeftszeichen</qualifier>
+        <scope_note>DFG-Geschäftszeichen
+</scope_note>
+    </dc-type>
+    <dc-type>
+        <schema>veroFU</schema>
+        <element>identifier</element>
+        <qualifier>dfgProjektnummer</qualifier>
+        <scope_note>DFG-Projektnummer
+</scope_note>
+    </dc-type>
+    <dc-type>
+        <schema>veroFU</schema>
+        <element>project</element>
+        <qualifier>purpose</qualifier>
+        <scope_note>Projektzweck
+</scope_note>
+    </dc-type>
+    <dc-type>
+        <schema>veroFU</schema>
+        <element>project</element>
+        <qualifier>type</qualifier>
+        <scope_note>Projektform
+</scope_note>
+    </dc-type>
+    <dc-type>
+        <schema>veroFU</schema>
+        <element>regulation</element>
+        <qualifier>a</qualifier>
+        <scope_note>Vorschrift a
+</scope_note>
+    </dc-type>
+    <dc-type>
+        <schema>veroFU</schema>
+        <element>regulation</element>
+        <qualifier>b</qualifier>
+        <scope_note>Vorschrift b
+</scope_note>
+    </dc-type>
+    <dc-type>
+        <schema>veroFU</schema>
+        <element>regulation</element>
+        <qualifier>c</qualifier>
+        <scope_note>Vorschrift c
+</scope_note>
+    </dc-type>
+    <dc-type>
+        <schema>veroFU</schema>
+        <element>regulation</element>
+        <qualifier>d</qualifier>
+        <scope_note>Vorschrift d
+</scope_note>
+    </dc-type>
+    <dc-type>
+        <schema>veroFU</schema>
+        <element>regulation</element>
+        <qualifier>e</qualifier>
+        <scope_note>Vorschrift e
+</scope_note>
+    </dc-type>
+    <dc-type>
+        <schema>veroFU</schema>
+        <element>regulation</element>
+        <scope_note>Beachtung von Vorschriften
+</scope_note>
+    </dc-type>
+    <dc-type>
+        <schema>veroFU</schema>
+        <element>resources</element>
+        <qualifier>openaccess</qualifier>
+        <scope_note>davon beantragte Open Access Kosten 
+</scope_note>
+    </dc-type>
+    <dc-type>
+        <schema>veroFU</schema>
+        <element>resources</element>
+        <qualifier>overhead</qualifier>
+        <scope_note>Bewilligte Projektpauschale
+</scope_note>
+    </dc-type>
+    <dc-type>
+        <schema>veroFU</schema>
+        <element>resources</element>
+        <qualifier>publicationcosts</qualifier>
+        <scope_note>Bewilligte Publikationskosten 
+</scope_note>
+    </dc-type>
+    <dc-type>
+        <schema>veroFU</schema>
+        <element>resources</element>
+        <qualifier>reseachData</qualifier>
+        <scope_note>Bewilligte FDM-Mittel
+</scope_note>
+    </dc-type>
+    <dc-type>
+        <schema>veroFU</schema>
+        <element>resources</element>
+        <qualifier>TypevecContribution</qualifier>
+        <scope_note>Zeitaufschreibung/SAP-Nr.
+</scope_note>
+    </dc-type>
+    <dc-type>
+        <schema>veroFU</schema>
+        <element>scientificLeader</element>
+        <scope_note>Wissenschaftliche Projektleitung
+</scope_note>
+    </dc-type>
+</dspace-dc-types>
