@@ -16,7 +16,6 @@ import java.sql.SQLException;
 import java.util.List;
 
 import jakarta.servlet.http.HttpServletRequest;
-
 import org.dspace.authorize.AuthorizeException;
 import org.dspace.content.Item;
 import org.dspace.content.service.ItemService;
