@@ -1,10 +1,11 @@
 /**
- * The contents of this file are subject to the relevant license set forth
- * in the LICENSE file accompanying this file ("License").
+ * The contents of this file are subject to the license and copyright
+ * detailed in the LICENSE and NOTICE files at the root of the source
+ * tree and available online at
  *
  * http://www.dspace.org/license/
  */
-// Версия: 1.0.3
+// Версия: 1.0.4
 // Дата выпуска: 2026-04-22
 
 package org.dspace.workflow.custom;
